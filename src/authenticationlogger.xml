@@ -15,11 +15,8 @@
 
 	<files>
 		<filename plugin="authenticationlogger">authenticationlogger.php</filename>
+		<folder>language</folder>
 	</files>
-
-	<languages>
-		<language tag="en-GB">en-GB.plg_system_authenticationlogger.sys.ini</language>
-	</languages>
 	
 	<config>
 		<fields name="params">
