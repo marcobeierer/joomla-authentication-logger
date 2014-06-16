@@ -11,7 +11,7 @@ An authentication logger for Joomla.
 - Forget password (not yet implemented)
 - Forgot username (not yet implemented)
 
-## What is logged?
+## Which data is logged?
 - Time
 - Severity
 - Action
