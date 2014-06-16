@@ -22,5 +22,8 @@ An authentication logger for Joomla.
 ## Features
 - Log rotation: The plugin creates a new logfile every day.
 
+## Planned Features
+- Daily report of warnings via email.
+
 ## Installation
 Just install the provided plugin package and activate it in the Plug-in Manager. The log files are created in your Joomla log directory.
