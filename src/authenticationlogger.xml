@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <extension version="3.3" type="plugin" group="system" method="upgrade">
 	<name>plg_system_authenticationlogger</name>
-	<description>An authentication logger for Joomla.</description>
+	<description>PLG_SYSTEM_AUTHENTICATIONLOGGER_DESCRIPTION</description>
 	
 	<author>Marco Beierer</author>
-	<authorEmail>marco@webguerilla.net</authorEmail>
-	<authorUrl>https://webguerilla.net</authorUrl>
+	<authorEmail>marco.beierer@mbsecurity.ch</authorEmail>
+	<authorUrl>https://www.mbsecurity.ch</authorUrl>
 	
 	<version>1.0.0-alpha.1</version>
 	<creationDate>June 2014</creationDate>
@@ -16,6 +16,10 @@
 	<files>
 		<filename plugin="authenticationlogger">authenticationlogger.php</filename>
 	</files>
+
+	<languages>
+		<language tag="en-GB">en-GB.plg_system_authenticationlogger.sys.ini</language>
+	</languages>
 	
 	<config>
 		<fields name="params">
