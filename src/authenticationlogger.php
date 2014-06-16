@@ -20,11 +20,11 @@ class PlgSystemAuthenticationlogger extends JPlugin {
 		JLog::add($logEntry);
 	}
 
-	public function onUserLogin($response, $options) { // JAuthenticationResponse array
+	public function onUserAfterLogin($options) { // JAuthenticationResponse array
 
 		$logEntry = new JLogEntry('Successfull login.', JLog::INFO, 'authentication');
 		$logEntry->event = 'Login';
-		$logEntry->username = $response['username'];
+		$logEntry->username = $options['user']->username;
 
 		$this->log($logEntry);
 	}

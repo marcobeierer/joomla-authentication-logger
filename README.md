@@ -8,7 +8,8 @@ An authentication logger for Joomla.
 - User logout
 - User logout failure
 - Password change (not yet implemented)
-- Password reset (not yet implemented)
+- Forget password (not yet implemented)
+- Forgot username (not yet implemented)
 
 ## What is logged?
 - Time
@@ -22,4 +23,4 @@ An authentication logger for Joomla.
 - Log rotation: The plugin creates a new logfile every day.
 
 ## Installation
-Just install the provided plugin package. The log files are created in your Joomla log directory.
+Just install the provided plugin package and activate it in the Plug-in Manager. The log files are created in your Joomla log directory.
