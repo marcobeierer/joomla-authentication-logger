@@ -1,6 +1,5 @@
-joomla-authentication-logger
-============================
-An authentication logger for Joomla.
+# Joomla Authentication Logger
+An authentication logger plugin for Joomla 2.5 and 3, which logs all important authentication events.
 
 ## Logged Events
 - User login

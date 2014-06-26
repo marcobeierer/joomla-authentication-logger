@@ -1,6 +1,5 @@
 <?php
 defined('_JEXEC') or die();
-jimport('joomla.log.log');
 
 class PlgSystemAuthenticationlogger extends JPlugin {
 
